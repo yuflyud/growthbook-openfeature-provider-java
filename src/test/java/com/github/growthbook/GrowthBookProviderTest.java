@@ -2,8 +2,8 @@ package com.github.growthbook;
 
 import dev.openfeature.sdk.*;
 import dev.openfeature.sdk.exceptions.ProviderNotReadyError;
-import growthbook.sdk.java.FeatureResult;
-import growthbook.sdk.java.FeatureResultSource;
+import growthbook.sdk.java.model.FeatureResult;
+import growthbook.sdk.java.model.FeatureResultSource;
 import growthbook.sdk.java.multiusermode.GrowthBookClient;
 import growthbook.sdk.java.multiusermode.configurations.Options;
 import growthbook.sdk.java.multiusermode.configurations.UserContext;
